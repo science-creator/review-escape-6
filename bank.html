@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>문제 은행 · 6차시 탈출</title>
+<link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+<header class="top">
+  <h1>📚 문제 은행 (정답·해설) — 6차시</h1>
+  <span class="badge">⚠ 학생에게 보이지 않게 주의하세요</span>
+  <span class="spacer"></span>
+  <a class="home" href="index.html">← 탈출 게임</a>
+</header>
+<main class="wrap">
+  <div class="panel" style="margin-top:0">
+    <div class="actions" style="margin-top:0">
+      <span>단원</span><select id="fU"></select>
+      <span>난이도</span>
+      <select id="fL"><option value="0">전체</option><option value="1">하</option><option value="2">중</option><option value="3">상</option></select>
+      <span class="note" id="cnt"></span>
+      <button class="btn ghost mini" onclick="window.print()">🖨 인쇄</button>
+    </div>
+    <p class="note">이 저장소에는 6차시(단원 1·10·14·21, 그림·그래프 문제) 문제만 있습니다. 고칠 곳은 <code>js/questions.js</code>(숫자를 고치면 그림도 함께 바뀝니다).</p>
+  </div>
+  <div id="bankOut"></div>
+</main>
+<script src="js/questions.js"></script>
+<script src="js/common.js"></script>
+<script src="js/figures.js"></script>
+<script src="js/bank.js"></script>
+</body>
+</html>
